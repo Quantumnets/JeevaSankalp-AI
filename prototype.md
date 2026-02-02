@@ -1,34 +1,7 @@
-# JeevaSankalp AI – Prototype Guide
+# Prototype Guide
 
----
-
-## 1. Prototype Objective
-
-Demonstrate the creation of a Living Memory for a land parcel and generation of a regenerative recommendation.
-
----
-
-## 2. Tech Stack
-
-- Python  
-- AWS (S3, Lambda, SageMaker)  
-- PyTorch  
-- Neptune (Graph DB)  
-
----
-
-## 3. Setup
-
-```bash
-git clone <repo_url>
-cd JeevaSankalp-AI
-pip install -r requirements.txt
-4. Prototype Flow
-
-Input sample soil data
-
-Create land memory graph
-
-Run MEN model
-
-Generate recommendation
+Steps:
+1. Input sample data
+2. Build memory graph
+3. Run MEN model
+4. Generate pathway
