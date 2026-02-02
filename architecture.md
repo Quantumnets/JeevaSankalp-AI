@@ -16,5 +16,23 @@ The architecture is designed to:
 ---
 
 ## 2. High-Level Architecture
-
+User Devices / Sensors
+|
+AWS IoT Core
+|
+Ingestion Services (Lambda)
+|
+Raw Data Lake (S3)
+|
+Memory Graph Builder
+|
+Graph Store (Amazon Neptune)
+|
+MEN Engine (SageMaker)
+|
+Regenerative Intelligence Layer
+|
+API Gateway
+|
+Mobile App / Voice Assistant
 
